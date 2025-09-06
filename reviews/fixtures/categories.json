@@ -1,0 +1,5 @@
+[
+  { "model": "reviews.category", "pk": 1, "fields": { "name": "Fiction" } },
+  { "model": "reviews.category", "pk": 2, "fields": { "name": "Science" } },
+  { "model": "reviews.category", "pk": 3, "fields": { "name": "History" } }
+]

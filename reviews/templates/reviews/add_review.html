@@ -1,0 +1,7 @@
+<h2>Add Review for {{ book.title }}</h2>
+<form method="POST">
+  {% csrf_token %}
+  Rating: <input type="number" name="rating" min="1" max="5"><br>
+  Comment: <textarea name="comment"></textarea><br>
+  <button type="submit">Submit</button>
+</form>

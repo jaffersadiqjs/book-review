@@ -1,0 +1,17 @@
+<h2>{{ book.title }}</h2>
+<p>{{ book.description }}</p>
+
+<h3>Reviews</h3>
+<ul>
+  {% for review in reviews %}
+    <li>{{ review.user.username }} - {{ review.rating }}/5 <br> {{ review.comment }}</li>
+  {% empty %}
+    <p>No reviews yet</p>
+  {% endfor %}
+</ul>
+
+{% if user.is_authenticated %}
+  <a href="{% url 'add_review' book.pk %}">Add Review</a>
+{% else %}
+  <a href="{% url 'login' %}">Login to review</a>
+{% endif %}

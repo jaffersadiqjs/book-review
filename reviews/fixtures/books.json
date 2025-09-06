@@ -1,0 +1,32 @@
+[
+  {
+    "model": "reviews.book",
+    "pk": 1,
+    "fields": {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A novel set in the Jazz Age exploring themes of wealth and the American Dream.",
+      "cover_image": "covers/gatsby.jpg"
+    }
+  },
+  {
+    "model": "reviews.book",
+    "pk": 2,
+    "fields": {
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "description": "A landmark volume in science writing by one of the great minds of our time.",
+      "cover_image": "covers/hawking.jpg"
+    }
+  },
+  {
+    "model": "reviews.book",
+    "pk": 3,
+    "fields": {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "description": "Explores the history and impact of Homo sapiens.",
+      "cover_image": "covers/sapiens.jpg"
+    }
+  }
+]
